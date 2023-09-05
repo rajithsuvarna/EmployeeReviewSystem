@@ -36,7 +36,7 @@ app.set("views", "./views");
 //creating the session
 app.use(
   session({
-    secret: "blahsomething",
+    secret: "VLXE1aOsCq3KKLZe8LAYZPp06qOQn1Yu",
     resave: false,
     saveUninitialized: false,
     cookie: {
