@@ -1,0 +1,47 @@
+.layout-main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 83.5vh;
+}
+
+#main-div {
+  width: 40%;
+  height: 58vh;
+  background-color: midnightblue;
+  border: 1px solid #efefef;
+}
+#main-div h1 {
+  text-align: center;
+  color: white;
+}
+#main-div form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 5%;
+}
+#main-div label {
+  color: white;
+  margin-bottom: 1.5%;
+  font-size: 20px;
+  font-weight: bold;
+}
+#main-div select {
+  width: 95%;
+  height: 2.2em;
+  font-size: 18px;
+  padding-left: 1%;
+  border: 2px solid #efefef;
+  margin-bottom: 5%;
+}
+#main-div button {
+  width: 20%;
+  height: 2em;
+  font-size: 15px;
+  border-radius: 50px;
+  background-color: #e8576b;
+  border: none;
+  color: white;
+}

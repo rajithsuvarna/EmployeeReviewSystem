@@ -1,12 +1,21 @@
-//setup express and router
+//setting up express router
 const express = require("express");
 const router = express.Router();
+//intializing home controller
 const homeController = require("../controllers/home_controller");
+//intializing passport
+const passport = require("passport");
 
-//router to render the home page
-router.get("/", homeController.home);
+router.get("/", passport.checkAuthentication, homeController.home);
+router.post(
+  "/completeReview",
+  passport.checkAuthentication,
+  homeController.completeReview
+);
 
-//usig middleware
+//using middleware to accsss other route elements
+router.use("/users", require("./users"));
+router.use("/review", require("./review"));
+router.use("/employee", require("./employeeSection"));
 
-//exporting the router
 module.exports = router;

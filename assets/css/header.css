@@ -1,0 +1,33 @@
+.header-main-div {
+  width: 100%;
+  height: 60px;
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+  padding: 0 10px;
+  justify-content: space-between;
+  box-sizing: border-box;
+  align-items: center;
+}
+#heading-review-system {
+  font-weight: 900;
+  font-size: 25px;
+}
+#heading-review-system i {
+  color: brown;
+}
+
+.header-main-div li {
+  padding: 5px;
+  color: white;
+  display: inline-block;
+  margin-right: 20px;
+}
+.header-main-div li:hover {
+  border: 1px solid white;
+}
+.header-main-div a {
+  color: inherit;
+  text-decoration: none;
+}

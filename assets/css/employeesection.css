@@ -1,0 +1,55 @@
+body {
+  background-size: cover;
+  overflow-y: scroll;
+  text-align: left;
+}
+
+.layout-main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#main-div {
+  margin-top: 2%;
+  width: 90%;
+  border: 1px solid #efefef;
+  padding-bottom: 1%;
+  background-color: midnightblue;
+  color: white;
+}
+#main-div #headings {
+  width: 100%;
+  height: 3vh;
+  display: flex;
+}
+#main-div #headings p {
+  margin: 0;
+  margin-left: 3%;
+  margin-right: 11%;
+}
+#main-div h1 {
+  text-align: center;
+}
+#main-div form {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1%;
+}
+#main-div input {
+  width: 15%;
+}
+#main-div button {
+  width: 8%;
+  height: 2em;
+  font-size: 12px;
+  border-radius: 50px;
+  background-color: #e8576b;
+  border: none;
+  color: white;
+}
+#main-div a {
+  color: white;
+  text-decoration: none;
+}
