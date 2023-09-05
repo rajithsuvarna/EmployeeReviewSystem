@@ -4,7 +4,7 @@ main().catch((err) => console.log(err));
 
 //connecting to mongodb
 async function main() {
-  await mongoose.connect("mongodb+srv://rajithsuvarna49:rajithsuvarna49@cluster0.xffsluf.mongodb.net/reviewsystem?retryWrites=true&w=majority");
+  await mongoose.connect("mongodb+srv://rajithsuvarna49:kmVf31e7ExfbE4vS@cluster0.xffsluf.mongodb.net/reviewsystem?retryWrites=true&w=majority");
 }
 
 //to check the mongodb connection
